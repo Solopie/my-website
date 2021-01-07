@@ -79,4 +79,9 @@ body {
   animation: float 4s ease-in-out infinite;
 }
 
+.bubble:hover {
+  background-color: #085f00;
+  animation-play-state: paused;
+}
+
 /*# sourceMappingURL=style.css.map */
