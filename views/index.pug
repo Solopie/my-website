@@ -3,10 +3,14 @@ extends default
 block content
     div.outerFrame
         div.innerFrame
-            img.bubble(src="images/icons/github_icon.png")
-            img.bubble(src="images/icons/projects_icon.png")
-            img.avatar(src="images/solopie_avatar_transparent.png")
-            img.bubble(src="images/icons/resume_icon.png")
-            img.bubble(src="images/icons/linkedin_icon.png")
-            // TVNHMSMgQW4gdW51c2VkIGltYWdlIHRlbGxzIGEgaHVuZHJlZCBzdG9yaWVz
+            a(href="https://github.com/Solopie")
+                img.bubble(src="images/icons/github_icon.png"  alt="Github")
+            a(href="/projects") 
+                img.bubble(src="images/icons/projects_icon.png" alt="Projects")
+            img.avatar(src="images/solopie_avatar_transparent.png" alt="Solopie Avatar")
+            a(href="/files/resume07012021.pdf")
+                img.bubble(src="images/icons/resume_icon.png" alt="Resume")
+            a(href="https://www.linkedin.com/in/jesse-nguyen-687859157/")
+                img.bubble(src="images/icons/linkedin_icon.png"  alt="Linkedin")
+            // TVNHMSMgQSB1c2VsZXNzIGltYWdlIHRlbGxzIGEgaHVuZHJlZCBzdG9yaWVz
 
