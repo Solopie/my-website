@@ -20,6 +20,7 @@
     "homepage": "https://github.com/Solopie/resume-website#readme",
     "dependencies": {
         "express": "^4.17.1",
+        "express-rate-limit": "^5.2.3",
         "pug": "^3.0.0",
         "serve-index": "^1.9.1"
     },
