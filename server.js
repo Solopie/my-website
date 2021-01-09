@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require("express");
 const serveIndex = require("serve-index");
 const rateLimit = require("express-rate-limit");
@@ -37,6 +38,6 @@ app.get("/projects", (req, res) => {
     res.send("Projects page in progress...");
 });
 
-const server = app.listen(3000, () => {
+const server = app.listen(process.env.PORT, () => {
     console.log(`Express running on PORT ${server.address().port}`);
 });
