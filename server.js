@@ -38,6 +38,10 @@ app.get("/projects", (req, res) => {
     res.send("Projects page in progress...");
 });
 
+app.get("/resume", (req, res) => {
+    res.sendFile(__dirname + "/public/files/resume11012021.pdf");
+});
+
 const server = app.listen(process.env.PORT, () => {
     console.log(`Express running on PORT ${server.address().port}`);
 });
