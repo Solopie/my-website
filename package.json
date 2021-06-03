@@ -4,10 +4,10 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "node server.js",
+        "start": "node ./app/server.js",
         "test": "echo \"Error: no test specified\" && exit 1",
-        "sass": "sass sass/style.scss public/css/style.css",
-        "dev": "npm run sass;nodemon server.js"
+        "sass": "sass ./app/sass/style.scss ./wwwroot/css/style.css",
+        "dev": "npm run sass;nodemon ./app/server.js"
     },
     "repository": {
         "type": "git",
